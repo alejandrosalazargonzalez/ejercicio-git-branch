@@ -29,3 +29,46 @@ Total 3 (delta 0), reusados 0 (delta 0), pack-reusados 0
 To https://github.com/alejandrosalazargonzalez/ejercicio-git-branch
    c362c87..f54a47d  main -> main
 ```
+## Se crea la nueva rama
+```code
+     git checkout -b ejercicio1-branch
+Cambiado a nueva rama 'ejercicio1-branch'
+```
+## Creo el Ejercicio1
+```code
+```
+## Subimos los nuevos cambios
+```code
+
+    git push --set-upstream origin ejercicio1-branch
+Enumerando objetos: 4, listo.
+Contando objetos: 100% (4/4), listo.
+Compresión delta usando hasta 4 hilos
+Comprimiendo objetos: 100% (3/3), listo.
+Escribiendo objetos: 100% (3/3), 419 bytes | 419.00 KiB/s, listo.
+Total 3 (delta 0), reusados 0 (delta 0), pack-reusados 0
+remote: 
+remote: Create a pull request for 'ejercicio1-branch' on GitHub by visiting:
+remote:      https://github.com/alejandrosalazargonzalez/ejercicio-git-branch/pull/new/ejercicio1-branch
+remote: 
+To https://github.com/alejandrosalazargonzalez/ejercicio-git-branch
+ * [new branch]      ejercicio1-branch -> ejercicio1-branch
+Rama 'ejercicio1-branch' configurada para hacer seguimiento a la rama remota 'ejercicio1-branch' de 'origin'.
+```
+## Unimos ambas ramas
+```code
+    git checkout main
+M       README.md
+Cambiado a rama 'main'
+Tu rama está actualizada con 'origin/main'.
+     git merge ejercicio1-branch 
+Actualizando 69d9e76..83ea3a1
+Fast-forward
+ Ejercicio1.java | 5 +++++
+ 1 file changed, 5 insertions(+)
+ create mode 100644 Ejercicio1.java
+    git push
+Total 0 (delta 0), reusados 0 (delta 0), pack-reusados 0
+To https://github.com/alejandrosalazargonzalez/ejercicio-git-branch
+   69d9e76..83ea3a1  main -> main
+```
