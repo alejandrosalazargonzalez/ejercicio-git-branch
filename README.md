@@ -129,4 +129,18 @@ remote:
 To https://github.com/alejandrosalazargonzalez/ejercicio-git-branch
  * [new branch]      ejercicio2-branch -> ejercicio2-branch
 ```
+## Fusiono la rama del ejerciocio 2 con la main
+```code
+    git checkout main
+Cambiado a rama 'main'
+Tu rama está actualizada con 'origin/main'.
+    git merge ejercicio2-branch
+Actualizando 1123f03..9a56de2
+Fast-forward
+ Ejercicio1.java | 10 +++++-----
+ Ejercicio2.java |  5 +++++
+ README.md       | 60 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 3 files changed, 69 insertions(+), 6 deletions(-)
+ create mode 100644 Ejercicio2.java
+ ```
 
