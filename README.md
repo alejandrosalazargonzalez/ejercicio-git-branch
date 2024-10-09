@@ -144,3 +144,17 @@ Fast-forward
  create mode 100644 Ejercicio2.java
  ```
 
+## Se crea la rama del ejercicio 3
+```code 
+    git checkout -b ejercicio3-branch
+Cambiado a nueva rama 'ejercicio3-branch'
+```
+
+## Creo el ejercicio 3
+```java
+public class Ejercicio3 {
+    public static void main(String[] args) {
+        System.out.println("Ejercicio 3 realizado.");
+    }
+}    
+```
