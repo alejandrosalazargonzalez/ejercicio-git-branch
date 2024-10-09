@@ -158,3 +158,13 @@ public class Ejercicio3 {
     }
 }    
 ```
+## Commit del ejercicio 3
+```code
+    git commit -m "Se incluye el Ejercicio3.java"
+[ejercicio3-branch c7539aa] Se incluye el Ejercicio3.java
+ 2 files changed, 19 insertions(+)
+ create mode 100644 Ejercicio3.java
+```
+## Subo la rama 3 con sus cambios
+```code
+```
