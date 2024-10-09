@@ -167,4 +167,22 @@ public class Ejercicio3 {
 ```
 ## Subo la rama 3 con sus cambios
 ```code
+    git push origin ejercicio3-branch 
+Enumerando objetos: 9, listo.
+Contando objetos: 100% (9/9), listo.
+Compresión delta usando hasta 4 hilos
+Comprimiendo objetos: 100% (7/7), listo.
+Escribiendo objetos: 100% (7/7), 867 bytes | 433.00 KiB/s, listo.
+Total 7 (delta 4), reusados 0 (delta 0), pack-reusados 0
+remote: Resolving deltas: 100% (4/4), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'ejercicio3-branch' on GitHub by visiting:
+remote:      https://github.com/alejandrosalazargonzalez/ejercicio-git-branch/pull/new/ejercicio3-branch
+remote: 
+To https://github.com/alejandrosalazargonzalez/ejercicio-git-branch
+ * [new branch]      ejercicio3-branch -> ejercicio3-branch
+```
+
+## Fusiono la rama main y la del ejercicio 3
+```code
 ```
