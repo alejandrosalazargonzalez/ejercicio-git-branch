@@ -35,7 +35,26 @@ To https://github.com/alejandrosalazargonzalez/ejercicio-git-branch
 Cambiado a nueva rama 'ejercicio1-branch'
 ```
 ## Creo el Ejercicio1
+```java
+public class Ejercicio1 {
+    public static void main(String[] args) {
+        System.out.println("Ejercicio 1 realizado.");
+    }
+}  
+```
 ```code
+git status 
+En la rama ejercicio1-branch
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que será confirmado)
+        ejercicio1.java
+
+no hay nada agregado al commit pero hay archivos sin seguimiento presentes (usa "git add" para hacerles seguimiento)
+     git add  Ejercicio1.java 
+     git commit -m "Se incluye el Ejercicio1.java"
+[ejercicio1-branch 83ea3a1] Se incluye el Ejercicio1.java
+ 1 file changed, 5 insertions(+)
+ create mode 100644 Ejercicio1.java
 ```
 ## Subimos los nuevos cambios
 ```code
@@ -71,4 +90,20 @@ Fast-forward
 Total 0 (delta 0), reusados 0 (delta 0), pack-reusados 0
 To https://github.com/alejandrosalazargonzalez/ejercicio-git-branch
    69d9e76..83ea3a1  main -> main
+```
+## Se crea la rama del ejercicio 2
+```code
+    git checkout -b ejercicio2-branch
+Cambiado a nueva rama 'ejercicio2-branch'
+```
+## Se crea el ejercicio 2
+```java
+public class Ejercicio2 {
+    public static void main(String[] args) {
+        System.out.println("Ejercicio 2 realizado.");
+    }
+}    
+```
+## Hago un commit de los cambios
+```code 
 ```
