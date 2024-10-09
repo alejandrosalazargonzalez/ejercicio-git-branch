@@ -106,4 +106,27 @@ public class Ejercicio2 {
 ```
 ## Hago un commit de los cambios
 ```code 
+    git commit -m "Se incluye el Ejercicio2.java"
+[ejercicio2-branch 0ad27c2] Se incluye el Ejercicio2.java
+ 3 files changed, 46 insertions(+), 6 deletions(-)
+ create mode 100644 Ejercicio2.java
 ```
+
+## Se suben los cambios al repositorio 
+```code 
+    git push origin ejercicio2-branch 
+Enumerando objetos: 8, listo.
+Contando objetos: 100% (8/8), listo.
+Compresión delta usando hasta 4 hilos
+Comprimiendo objetos: 100% (5/5), listo.
+Escribiendo objetos: 100% (5/5), 935 bytes | 935.00 KiB/s, listo.
+Total 5 (delta 2), reusados 0 (delta 0), pack-reusados 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'ejercicio2-branch' on GitHub by visiting:
+remote:      https://github.com/alejandrosalazargonzalez/ejercicio-git-branch/pull/new/ejercicio2-branch
+remote: 
+To https://github.com/alejandrosalazargonzalez/ejercicio-git-branch
+ * [new branch]      ejercicio2-branch -> ejercicio2-branch
+```
+
