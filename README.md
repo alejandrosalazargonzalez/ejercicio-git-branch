@@ -185,4 +185,15 @@ To https://github.com/alejandrosalazargonzalez/ejercicio-git-branch
 
 ## Fusiono la rama main y la del ejercicio 3
 ```code
+    git checkout main 
+Cambiado a rama 'main'
+Tu rama está actualizada con 'origin/main'.
+    git merge ejercicio3-branch 
+Actualizando ad7a942..023975d
+Fast-forward
+ Ejercicio3.java |  5 +++++
+ README.md       | 42 ++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 47 insertions(+)
+ create mode 100644 Ejercicio3.java
 ```
+
